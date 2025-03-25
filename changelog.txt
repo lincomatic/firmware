@@ -1,0 +1,5 @@
+20250324 SCL
+- allow enable/disable of Seeed T1000e buzzer
+  variants/tracker-t1000-e/variant.h -> comment out PIN_BUZZER
+  disable sounds: meshtastic --set device.buzzerGpio 0
+  enable sounds: mesthtastic --set device.buzzerGpio 25

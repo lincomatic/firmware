@@ -145,7 +145,7 @@ extern "C" {
 
 // Buzzer
 #define BUZZER_EN_PIN (32 + 5) // P1.05, always high
-#define PIN_BUZZER (0 + 25)    // P0.25, pwm output
+//#define PIN_BUZZER (0 + 25)    // P0.25, pwm output
 
 #define T1000X_SENSOR_EN
 #define T1000X_VCC_PIN (0 + 4)  // P0.4
